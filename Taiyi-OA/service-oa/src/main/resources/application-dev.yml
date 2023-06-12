@@ -1,0 +1,22 @@
+server:
+  port: 8800
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # 查看日志
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.18.230.171:3306/taiyi-oa?serverTimezone=GMT%2B8&useSSL=false&characterEncoder=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  # 时间格式化
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/service-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/service-oa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/service-oa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Taiyi-OA/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
