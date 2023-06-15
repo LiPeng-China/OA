@@ -153,7 +153,7 @@ INSERT INTO `sys_login_log` VALUES (1,'admin','0:0:0:0:0:0:0:1',1,'登录成功'
 #
 # Structure for table "sys_menu"
 #
-
+use `taiyi-oa`;
 CREATE TABLE `sys_menu` (
                             `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '编号',
                             `parent_id` bigint(20) NOT NULL DEFAULT '0' COMMENT '所属上级',
@@ -278,7 +278,7 @@ INSERT INTO `sys_role_menu` VALUES (1,2,2,'2022-06-02 16:11:27','2022-06-02 16:1
 #
 # Structure for table "sys_user"
 #
-use `taiyi-oa`;
+
 CREATE TABLE `sys_user` (
                             `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '会员id',
                             `username` varchar(20) NOT NULL DEFAULT '' COMMENT '用户名',
